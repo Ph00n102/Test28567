@@ -1,0 +1,15 @@
+﻿@inherits LayoutComponentBase
+
+<PageTitle>Blazing Blog</PageTitle>
+
+<div class="page d-flex flex-column">
+    <div class="container-fluid bg-purple">
+        <TopNavBar />
+    </div>
+    <div class="cotainer-fluid flex-grow-1">
+        @Body
+    </div>
+    <footer class="fixed-bottom text-center d-flex align-items-center footer" >
+        <p class="md-0 p-2">Blog App built using Blazor Server by <strong>Abhay Prince</strong></p>
+    </footer>
+</div>
